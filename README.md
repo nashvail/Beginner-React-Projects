@@ -4,3 +4,5 @@ Hey  there! I am learning Facebook’s React!(Since July 7th 2015). These are th
 
 #About the build directory
 build/ directory holds `react.min.js` and `JSXTransformer.js` required files.
+
+These Projects are inspired by Egghead.io's React tutorials that I am going through. 
