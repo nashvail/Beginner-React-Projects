@@ -2,11 +2,11 @@ var App = React.createClass({
 	render: function() {
 		return(
 			<div>
-				<Input />
-				<Output font = "Karla" />
-				<Output font = "Helvetica Neue" />
-				<Output font = "Bree serif" />
-				<Output font = "Lato" />
+				<Input/>
+				<Output font = "Karla">What is up ?</Output>
+				<Output font = "Helvetica Neue">Hey How are you man?</Output>
+				<Output font = "Bree serif"> Hey there!</Output>
+				<Output font = "Lato">Goodbye cruel world!</Output>
 				<Output font = "Cabin" />
 				<Output font = "Proxima Nova" />
 				<Output font = "Andale Mono" />
@@ -38,10 +38,8 @@ var Input = React.createClass({
 
 // This is the component in which the output text will be displayed
 var Output = React.createClass({
-	getDefaultProps: function () {
-	    return {
-	        val: "Hello, world!"  
-	    };
+	componentWillMount: function () {
+	    this.props.val = this.props.children || "Hello, world" ;
 	},
 	render: function() {
 		var divStyle = {
