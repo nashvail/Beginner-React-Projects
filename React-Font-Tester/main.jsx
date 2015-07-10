@@ -48,7 +48,7 @@ var Output = React.createClass({
 		};
 		return(
 			<div className = "fontOutput">
-				<div className = "fontName">
+				<div className = "fontName" style = {divStyle}>
 					{this.props.font}
 				</div>
 				<div style = {divStyle} className = "output">
