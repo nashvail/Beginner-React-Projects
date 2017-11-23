@@ -4,7 +4,7 @@ var App = React.createClass({
 			<div>
 				<Input/>
 				<Output font = "Karla">What is up ?</Output>
-				<Output font = "Helvetica Neue">Hey How are you man?</Output>
+				<Output font = "Helvetica Neue">Hey How are you?</Output>
 				<Output font = "Bree serif"> Hey there!</Output>
 				<Output font = "Lato">Goodbye cruel world!</Output>
 				<Output font = "Cabin" />
