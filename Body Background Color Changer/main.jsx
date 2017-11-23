@@ -54,4 +54,4 @@ var Slider = React.createClass({
 });
 
 // Render the component to the appropriate DOM element
-React.render(<APP txt = "This is some text" />, document.body);
+React.render(<APP txt = "This is samplee text" />, document.body);
